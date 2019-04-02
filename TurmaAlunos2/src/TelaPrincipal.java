@@ -32,7 +32,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -66,8 +65,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/turmadealunos/if.png"))); // NOI18N
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/turmaalunos2/if.png"))); // NOI18N
 
@@ -128,9 +125,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addGap(8, 8, 8)
                         .addComponent(jLabel3))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(32, 32, 32)
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(42, 42, 42)
                         .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 317, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(69, Short.MAX_VALUE))
         );
@@ -140,9 +135,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
+                .addComponent(jLabel5)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -234,7 +227,6 @@ janela.setVisible(true);        // TODO add your handling code here:
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
